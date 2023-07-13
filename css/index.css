@@ -92,7 +92,6 @@ body {
 .cta-section {
     text-align: center;
     background-color: rgb(0, 16, 20);
-    backdrop-filter: saturate(0);
 }
 
 .info-section {
