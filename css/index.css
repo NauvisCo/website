@@ -6,7 +6,6 @@
 * {
     font-family: 'Outfit', sans-serif;
     font-weight: 100;
-    color: white;
 }
 
 html {
@@ -79,6 +78,10 @@ body {
     color: white;
 }
 
+.white-text{
+    color: white;
+}
+
 .is-main span {
     background: -webkit-linear-gradient(50deg, rgba(108, 218, 197, 1) 0%, rgba(4, 138, 196, 1) 100%);
     -webkit-background-clip: text;
@@ -91,7 +94,7 @@ body {
 
 .cta-section {
     text-align: center;
-    background-color: rgb(0, 16, 20);
+    background-color: rgb(0, 36, 45);
     padding: 70px 5%;
 }
 
