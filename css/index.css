@@ -10,7 +10,7 @@
 }
 
 html {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(11, 11, 11);
 }
 
 body {
@@ -92,11 +92,12 @@ body {
 .cta-section {
     text-align: center;
     background-color: rgb(0, 16, 20);
+    padding: 70px 5%;
 }
 
 .info-section {
-    background-color: rgb(249, 249, 249);
-    padding: 60px 6%;
+    background-color: rgb(252, 246, 236);
+    padding: 80px 6%;
 }
 
 .cta-bottom {
@@ -170,6 +171,22 @@ body {
     border-image-slice: 1;
 }
 
+.step-column{
+    margin: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: rgba(70, 70, 70, 0.582);
+    padding: 1.5% 0%;
+}
+
+.step-column:hover {
+    border-style: solid;
+    border-width: 2px 0px;
+    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
+    border-image-slice: 1;
+}
+
 .text ul {
     list-style: none;
     /* Remove default bullets */
@@ -220,8 +237,8 @@ body {
 
 .margin-block {
     border-style: solid;
-    border-width: 0 0 0 3px;
-    border-color: rgba(70, 70, 70, 0.582);
+    border-width: 0 0 0 2px;
+    border-color: rgba(70, 70, 70, 0.274);
     padding: 0 0 0 30px;
     margin: 0 0 0 40px;
 }
@@ -254,6 +271,11 @@ body {
 .info-section p {
     font-size: 15px;
     font-weight: 200;
+}
+
+.working-section{
+    padding: 90px 6%;
+    background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 10%, rgba(255, 255, 255, 0) 90%);
 }
 
 .tabcontent {
@@ -311,5 +333,8 @@ footer {
         border-style: none;
         padding: 20px 0;
         margin: 0;
+    }
+    .step-column{
+        padding: 5% 2%;
     }
 }
