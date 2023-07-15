@@ -40,6 +40,15 @@ body {
     background-color: rgba(255, 255, 255, 0)
 }
 
+.navbar-top{
+    width: 100%;
+    background-color: rgba(0, 36, 45, 0.95);
+    position: fixed;
+    top:0;
+    padding: 10px 5%;
+    z-index: 10;
+}
+
 .landing-section {
     min-height: 38vmax;
 }
@@ -78,7 +87,7 @@ body {
     color: white;
 }
 
-.white-text{
+.white-text {
     color: white;
 }
 
@@ -98,8 +107,27 @@ body {
     padding: 70px 5%;
 }
 
+.benef-section{
+    background-color: rgb(0, 36, 45);
+    padding: 70px 5%;
+}
+
+.info-blocks p{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.benef-blocks{
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.benef-blocks p{
+    font-weight: 200;
+}
+
 .info-section {
-    background-color: rgb(252, 246, 236);
+    background-color: rgb(248, 248, 249);
     padding: 80px 6%;
 }
 
@@ -167,6 +195,11 @@ body {
     border-color: rgba(70, 70, 70, 0.582);
 }
 
+.info-column p{
+    font-weight: 300;
+    color: white;
+}
+
 .info-column:hover {
     border-style: solid;
     border-width: 0 2px;
@@ -174,7 +207,7 @@ body {
     border-image-slice: 1;
 }
 
-.step-column{
+.step-column {
     margin: 1rem;
     text-align: center;
     border-style: solid;
@@ -216,7 +249,7 @@ body {
 }
 
 .tabs a.active {
-    background: -webkit-linear-gradient(60deg, rgba(4, 138, 196, 1) 10%, rgba(108, 218, 197, 1) 90%);
+    background: rgb(36, 154, 183)
 }
 
 
@@ -234,13 +267,13 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
-.highlight-text{
- color: rgb(0, 139, 173)
+.highlight-text {
+    color: rgb(0, 139, 173)
 }
 
 .margin-block {
     border-style: solid;
-    border-width: 0 0 0 2px;
+    border-width: 0 0 0 0px;
     border-color: rgba(70, 70, 70, 0.274);
     padding: 0 0 0 30px;
     margin: 0 0 0 40px;
@@ -276,9 +309,14 @@ body {
     font-weight: 200;
 }
 
-.working-section{
+.step-column p{
+    font-weight: 200;
+}
+
+.working-section {
     padding: 90px 6%;
-    background-image: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 10%, rgba(255, 255, 255, 0) 90%);
+    background-color: rgb(11, 11, 11);
+    text-align: center;
 }
 
 .tabcontent {
@@ -320,8 +358,8 @@ footer {
         margin-bottom: 50px;
     }
 
-    .video-div-main{
-        display:none;
+    .video-div-main {
+        display: none;
     }
 
     .info-section {
@@ -337,7 +375,8 @@ footer {
         padding: 20px 0;
         margin: 0;
     }
-    .step-column{
+
+    .step-column {
         padding: 5% 2%;
     }
 }
