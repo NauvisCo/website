@@ -121,12 +121,12 @@ body {
 .cta-section {
     text-align: center;
     background-color: rgb(0, 36, 45);
-    padding: 70px 5%;
+    padding: 70px 6%;
 }
 
 .benef-section {
     background-color: rgb(0, 36, 45);
-    padding: 70px 5%;
+    padding: 70px 6%;
 }
 
 .info-blocks p {
@@ -145,7 +145,7 @@ body {
 
 .info-section {
     background-color: rgb(248, 248, 249);
-    padding: 80px 6%;
+    padding: 70px 6%;
 }
 
 .cta-bottom {
@@ -163,7 +163,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    padding: 60px 6%;
+    padding: 70px 6%;
     min-height: 40vmax;
     text-align: center;
 }
@@ -336,7 +336,7 @@ body {
 }
 
 .working-section {
-    padding: 90px 6%;
+    padding: 70px 6%;
     background-color: rgb(11, 11, 11);
     text-align: center;
 }
@@ -386,7 +386,7 @@ footer {
 
     .info-section {
         background-color: rgb(235, 235, 235);
-        padding: 40px 6%;
+        padding: 70px 6%;
     }
 
     .esp-vertical-center {
