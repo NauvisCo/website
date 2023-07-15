@@ -40,11 +40,11 @@ body {
     background-color: rgba(255, 255, 255, 0)
 }
 
-.navbar-top{
+.navbar-top {
     width: 100%;
     background-color: rgba(0, 36, 45, 0.95);
     position: fixed;
-    top:0;
+    top: 0;
     padding: 10px 5%;
     z-index: 10;
 }
@@ -53,7 +53,18 @@ body {
     min-height: 38vmax;
 }
 
+
 .waitlist-button {
+    margin: 0px 30px;
+    background: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 100%);
+    border-style: solid;
+    border-width: 2px;
+    border-image: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
+    border-image-slice: 1;
+    color: white;
+}
+
+.contact-button {
     background-color: rgba(0, 0, 0, 0);
     border-style: solid;
     border-width: 2px;
@@ -63,7 +74,13 @@ body {
 }
 
 .waitlist-button:hover {
-    background: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 100%);
+    color: white;
+    background: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 0.90) 5%, rgba(108, 218, 197, 0.90) 100%);
+    border-image: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
+}
+
+.contact-button:hover {
+    background: -webkit-linear-gradient(45deg, rgb(151, 203, 226, 0.2) 5%, rgb(155, 227, 214, 0.2) 100%);
     color: white;
 }
 
@@ -107,22 +124,22 @@ body {
     padding: 70px 5%;
 }
 
-.benef-section{
+.benef-section {
     background-color: rgb(0, 36, 45);
     padding: 70px 5%;
 }
 
-.info-blocks p{
+.info-blocks p {
     color: rgb(0, 0, 0);
     font-weight: 300;
 }
 
-.benef-blocks{
+.benef-blocks {
     color: rgb(255, 255, 255);
     font-weight: 300;
 }
 
-.benef-blocks p{
+.benef-blocks p {
     font-weight: 200;
 }
 
@@ -133,7 +150,7 @@ body {
 
 .cta-bottom {
     background-color: rgba(0, 0, 0, 0.302);
-    padding: 2%;
+    padding: 2.5%;
     border-radius: 40px;
     backdrop-filter: blur(3.5px);
     box-shadow: 0 4px 30px rgba(15, 15, 15, 0.5);
@@ -163,9 +180,14 @@ body {
     text-align: center;
 }
 
+.waitlist-form h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 .waitlist-form h2 {
-    font-weight: 100;
-    color: rgb(195, 195, 195)
+    font-weight: 300;
+    color: rgb(220, 220, 220)
 }
 
 .waitlist-form label {
@@ -195,7 +217,7 @@ body {
     border-color: rgba(70, 70, 70, 0.582);
 }
 
-.info-column p{
+.info-column p {
     font-weight: 300;
     color: white;
 }
@@ -309,7 +331,7 @@ body {
     font-weight: 200;
 }
 
-.step-column p{
+.step-column p {
     font-weight: 200;
 }
 
@@ -364,6 +386,7 @@ footer {
 
     .info-section {
         background-color: rgb(235, 235, 235);
+        padding: 40px 6%;
     }
 
     .esp-vertical-center {
@@ -378,5 +401,13 @@ footer {
 
     .step-column {
         padding: 5% 2%;
+    }
+
+    .contact-button {
+        margin: 30px 0;
+    }
+
+    .cta-bottom {
+        padding: 5%;
     }
 }
