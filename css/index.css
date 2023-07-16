@@ -5,11 +5,12 @@
 
 * {
     font-family: 'Outfit', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
+    color: white;
 }
 
 html {
-    background-color: rgb(11, 11, 11);
+    background-color: #0b161a;
 }
 
 body {
@@ -17,7 +18,7 @@ body {
 }
 
 .def-margin {
-    margin: 30px 5%;
+    margin: 30px 0;
 }
 
 .bgimg {
@@ -35,6 +36,10 @@ body {
     filter: blur(60px);
 }
 
+.size-massive {
+    font-size: 4rem;
+}
+
 .is-transparent {
     color: rgba(255, 255, 255, 0);
     background-color: rgba(255, 255, 255, 0)
@@ -42,46 +47,52 @@ body {
 
 .navbar-top {
     width: 100%;
-    background-color: rgba(0, 36, 45, 0.95);
     position: fixed;
     top: 0;
     padding: 10px 5%;
     z-index: 10;
+    background-color: rgba(11, 22, 26, 0.97);
 }
 
 .landing-section {
-    min-height: 38vmax;
+    padding: 5% 0;
+    min-height: 41vmax;
 }
 
-
 .waitlist-button {
-    margin: 0px 30px;
-    background: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 100%);
-    border-style: solid;
-    border-width: 2px;
-    border-image: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
-    border-image-slice: 1;
-    color: white;
+    background-color: #6cdac5;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.waitlist-button p {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
 }
 
 .contact-button {
     background-color: rgba(0, 0, 0, 0);
     border-style: solid;
     border-width: 2px;
-    border-image: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
-    border-image-slice: 1;
+    border-radius: 10px;
+    border-color: #6cdac5;
+}
+
+.contact-button p {
     color: white;
+    font-weight: 300;
 }
 
 .waitlist-button:hover {
-    color: white;
-    background: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 0.90) 5%, rgba(108, 218, 197, 0.90) 100%);
-    border-image: -webkit-linear-gradient(45deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
+    color: black;
+    background-color: #50a394;
 }
 
 .contact-button:hover {
-    background: -webkit-linear-gradient(45deg, rgb(151, 203, 226, 0.2) 5%, rgb(155, 227, 214, 0.2) 100%);
     color: white;
+    border-color: #50a394;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .main-landing {
@@ -95,42 +106,29 @@ body {
 }
 
 .is-main {
-    font-weight: 300;
+    font-weight: 400;
     color: white;
 }
 
 .is-submain {
-    font-weight: 200;
-    color: white;
+    font-weight: 300;
+    color: rgb(217, 217, 217);
 }
 
 .white-text {
     color: white;
 }
 
-.is-main span {
-    background: -webkit-linear-gradient(50deg, rgba(108, 218, 197, 1) 0%, rgba(4, 138, 196, 1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.black-text {
-    color: black;
-}
-
 .cta-section {
     text-align: center;
-    background-color: rgb(0, 36, 45);
     padding: 70px 6%;
 }
 
 .benef-section {
-    background-color: rgb(0, 36, 45);
     padding: 70px 6%;
 }
 
 .info-blocks p {
-    color: rgb(0, 0, 0);
     font-weight: 300;
 }
 
@@ -144,20 +142,19 @@ body {
 }
 
 .info-section {
-    background-color: rgb(248, 248, 249);
     padding: 70px 6%;
 }
 
 .cta-bottom {
-    background-color: rgba(0, 0, 0, 0.302);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 2.5%;
     border-radius: 40px;
     backdrop-filter: blur(3.5px);
-    box-shadow: 0 4px 30px rgba(15, 15, 15, 0.5);
+    box-shadow: 0 0px 3px rgba(0, 0, 0, .3);
 }
 
 .bottom-section {
-    background-color: black;
+    background-color: #070d10;
     background-image: url("/images/Background\ stripe.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -212,21 +209,12 @@ body {
 .info-column {
     margin: 1rem;
     text-align: center;
-    border-style: solid;
-    border-width: 0 2px;
-    border-color: rgba(70, 70, 70, 0.582);
 }
 
 .info-column p {
     font-weight: 300;
-    color: white;
-}
-
-.info-column:hover {
-    border-style: solid;
-    border-width: 0 2px;
-    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
-    border-image-slice: 1;
+    padding: 10px;
+    color: rgb(217, 217, 217);
 }
 
 .step-column {
@@ -241,8 +229,7 @@ body {
 .step-column:hover {
     border-style: solid;
     border-width: 2px 0px;
-    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
-    border-image-slice: 1;
+    border-color: #6cdac5;
 }
 
 .text ul {
@@ -251,18 +238,18 @@ body {
 }
 
 .text li {
-    color: black;
     font-weight: 200;
     margin: 25px 0;
 }
 
 .text li::before {
     content: "\2022";
-    color: rgba(4, 138, 196, 1);
+    color: #6cdac5;
     font-weight: 800;
     display: inline-block;
     width: 1rem;
 }
+
 
 .tabs a {
     cursor: pointer;
@@ -271,26 +258,15 @@ body {
 }
 
 .tabs a.active {
-    background: rgb(36, 154, 183)
-}
-
-
-.tabs span {
-    color: black
+    background: #6cdac5;
 }
 
 .tabs a.active span {
-    color: rgb(255, 255, 255);
-}
-
-.gradient-text {
-    background: -webkit-linear-gradient(60deg, rgba(4, 138, 196, 1) 10%, rgba(108, 218, 197, 1) 90%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(0, 0, 0);
 }
 
 .highlight-text {
-    color: rgb(0, 139, 173)
+    color: #6cdac5;
 }
 
 .margin-block {
@@ -302,7 +278,7 @@ body {
 }
 
 .margin-block:hover {
-    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, rgba(108, 218, 197, 1) 95%);
+    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, #6cdac5 95%);
     border-image-slice: 1;
 }
 
@@ -321,10 +297,6 @@ body {
     margin-bottom: 2rem;
 }
 
-.info-section h1 {
-    font-size: 16px;
-    font-weight: 400;
-}
 
 .info-section p {
     font-size: 15px;
@@ -337,7 +309,6 @@ body {
 
 .working-section {
     padding: 70px 6%;
-    background-color: rgb(11, 11, 11);
     text-align: center;
 }
 
@@ -376,8 +347,11 @@ footer {
     .main-landing {
         text-align: center;
         width: 90%;
-        margin-top: 15px;
-        margin-bottom: 50px;
+        margin-bottom: 60px;
+    }
+
+    .size-massive { 
+        font-size: 3.5rem;
     }
 
     .video-div-main {
@@ -385,7 +359,6 @@ footer {
     }
 
     .info-section {
-        background-color: rgb(235, 235, 235);
         padding: 70px 6%;
     }
 
@@ -403,8 +376,9 @@ footer {
         padding: 5% 2%;
     }
 
-    .contact-button {
-        margin: 30px 0;
+    .mob-expand{
+        width: 100%;
+        margin: 3% 0;
     }
 
     .cta-bottom {
