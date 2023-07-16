@@ -54,21 +54,21 @@ body {
     background-color: rgba(11, 22, 26, 0.97);
 }
 
-.navbar-menu a{
+.navbar-menu a {
     color: white;
     font-weight: 300;
     font-size: 1rem;
 }
 
-.navbar-menu a:hover{
+.navbar-menu a:hover {
     color: #50a394;
 }
 
-.navbar-menu a:active{
+.navbar-menu a:active {
     color: #50a394;
 }
 
-.navbar-dropdown a{
+.navbar-dropdown a {
     color: black;
 }
 
@@ -84,7 +84,7 @@ body {
     font-weight: 300;
 }
 
-.waitlist-nav-button{
+.waitlist-nav-button {
     background-color: rgba(0, 0, 0, 0);
     border-style: solid;
     border-width: 2px;
@@ -98,7 +98,7 @@ body {
     font-weight: 300;
 }
 
-.waitlist-nav-button p{
+.waitlist-nav-button p {
     font-weight: 300;
     font-size: 1rem;
 }
@@ -127,7 +127,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-.waitlist-nav-button:hover{
+.waitlist-nav-button:hover {
     color: white;
     border-color: #50a394;
     background-color: rgba(0, 0, 0, 0.5);
@@ -370,6 +370,11 @@ footer {
     z-index: 1;
 }
 
+.foot-soc {
+    margin: 0 10px;
+    display: inline;
+}
+
 .heavy-txt {
     font-weight: 300;
 }
@@ -393,15 +398,15 @@ footer {
         padding: 20px 0 0 0;
     }
 
-    .nav-button-contain{
+    .nav-button-contain {
         width: 100%;
     }
 
-    .waitlist-nav-button{
+    .waitlist-nav-button {
         padding: 0;
     }
 
-    .size-massive { 
+    .size-massive {
         font-size: 3.5rem;
     }
 
@@ -427,7 +432,7 @@ footer {
         padding: 5% 2%;
     }
 
-    .mob-expand{
+    .mob-expand {
         width: 100%;
         margin: 3% 0;
     }
