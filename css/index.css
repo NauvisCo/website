@@ -1,84 +1,10 @@
-@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
-@import "bulma/sass/utilities/_all.sass";
-@import "bulma/sass/grid/columns.sass";
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap');
-
-* {
-    font-family: 'Outfit', sans-serif;
-    font-weight: 200;
-    color: white;
-}
-
-html {
-    background-color: #0b161a;
-}
-
-body {
-    width: 100%;
-}
-
-.def-margin {
-    margin: 30px 0;
-}
-
-.bgimg {
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-}
-
-.bgimg img {
-    width: 100%;
-    height: 100%;
-    filter: blur(60px);
-}
-
-.size-massive {
-    font-size: 4rem;
-}
-
-.is-transparent {
-    color: rgba(255, 255, 255, 0);
-    background-color: rgba(255, 255, 255, 0)
-}
-
-.navbar-top {
-    width: 100%;
-    position: fixed;
-    top: 0;
-    padding: 10px 5%;
-    z-index: 10;
-    background-color: rgba(11, 22, 26, 0.97);
-}
-
-.navbar-menu a {
-    color: white;
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-.navbar-menu a:hover {
-    color: #50a394;
-}
-
-.navbar-menu a:active {
-    color: #50a394;
-}
-
-.navbar-dropdown a {
-    color: black;
-}
-
 .landing-section {
     padding: 5% 0;
     min-height: 41vmax;
 }
 
 .waitlist-button {
-    background-color: #6cdac5;
+    background-color: #027e94;
     border: 0;
     border-radius: 10px;
     font-weight: 300;
@@ -89,12 +15,12 @@ body {
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
-    border-color: #6cdac5;
+    border-color: #027e94;
     padding: 10%;
 }
 
 .waitlist-button p {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 300;
 }
 
@@ -108,29 +34,29 @@ body {
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
-    border-color: #6cdac5;
+    border-color: #0994ac;
 }
 
 .contact-button p {
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 300;
 }
 
 .waitlist-button:hover {
-    color: black;
-    background-color: #50a394;
+    color: rgb(255, 255, 255);
+    background-color: #066c7e;
 }
 
 .contact-button:hover {
     color: white;
-    border-color: #50a394;
-    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #066c7e;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .waitlist-nav-button:hover {
     color: white;
-    border-color: #50a394;
-    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #066c7e;
+    background-color: rgba(0, 0, 0, 0.1);
 }
 
 .main-landing {
@@ -145,21 +71,22 @@ body {
 
 .is-main {
     font-weight: 400;
-    color: white;
 }
 
 .is-submain {
     font-weight: 300;
-    color: rgb(217, 217, 217);
-}
-
-.white-text {
-    color: white;
+    color: #6b6b6b;
 }
 
 .cta-section {
+    background-color: #f9f8f3;
     text-align: center;
     padding: 70px 6%;
+}
+
+.desc {
+    font-size: 1.35rem;
+    font-weight: 300;
 }
 
 .benef-section {
@@ -184,15 +111,15 @@ body {
 }
 
 .cta-bottom {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 2.5%;
     border-radius: 40px;
     backdrop-filter: blur(3.5px);
-    box-shadow: 0 0px 3px rgba(0, 0, 0, .3);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .15);
 }
 
 .bottom-section {
-    background-color: #070d10;
+    background-color: #e8e6df;
     background-image: url("/images/Background\ stripe.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -218,6 +145,7 @@ body {
 .waitlist-form h1 {
     font-size: 2rem;
     font-weight: 400;
+    color: white;
 }
 
 .waitlist-form h2 {
@@ -252,7 +180,7 @@ body {
 .info-column p {
     font-weight: 300;
     padding: 10px;
-    color: rgb(217, 217, 217);
+    color: rgb(107, 107, 107);
 }
 
 .step-column {
@@ -267,7 +195,7 @@ body {
 .step-column:hover {
     border-style: solid;
     border-width: 2px 0px;
-    border-color: #6cdac5;
+    border-color: #027e94;
 }
 
 .text ul {
@@ -282,7 +210,7 @@ body {
 
 .text li::before {
     content: "\2022";
-    color: #6cdac5;
+    color: #027e94;
     font-weight: 800;
     display: inline-block;
     width: 1rem;
@@ -296,7 +224,7 @@ body {
 }
 
 .tabs a.active {
-    background: #6cdac5;
+    background: #027e94;
 }
 
 .tabs a.active span {
@@ -304,7 +232,7 @@ body {
 }
 
 .highlight-text {
-    color: #6cdac5;
+    color: #027e94;
 }
 
 .margin-block {
@@ -316,7 +244,7 @@ body {
 }
 
 .margin-block:hover {
-    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, #6cdac5 95%);
+    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, #0994ac95%);
     border-image-slice: 1;
 }
 
@@ -368,6 +296,17 @@ body {
 
 footer {
     z-index: 1;
+    background-color: #262625;
+    margin: 0;
+    color: white;
+}
+
+footer p{
+    color: white;
+}
+
+.bottom-margin{
+    margin-bottom: 0;
 }
 
 .foot-soc {
@@ -381,9 +320,8 @@ footer {
 
 .set-footer {
     color: white;
-    background-color: rgba(19, 19, 19, 0.529);
-    padding: 40px;
-    border-radius: 40px;
+    background-color: #262625;
+    padding: 70px 30px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -394,7 +332,7 @@ footer {
     }
 
     .navbar-menu {
-        background-color: rgba(11, 22, 26, 0.97);
+        background-color: rgb(249, 248, 243, 0.97);
         padding: 20px 0 0 0;
     }
 

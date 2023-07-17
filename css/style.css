@@ -1,0 +1,55 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "bulma/sass/utilities/_all.sass";
+@import "bulma/sass/grid/columns.sass";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 200;
+    color: rgb(10, 10, 10);
+}
+
+html {
+    background-color: #f3f1eb;
+}
+
+body {
+    width: 100%;
+}
+
+.def-margin {
+    margin: 30px 0;
+}
+
+.size-massive {
+    font-weight: 200;
+    font-size: 4.5rem;
+}
+
+.is-transparent {
+    color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0)
+}
+
+.navbar-top {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding: 10px 5%;
+    z-index: 10;
+    background-color: rgb(243, 241, 235, 0.97);
+}
+
+.navbar-menu a {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.navbar-menu a:hover {
+    color: #027e94 ;
+}
+
+.navbar-dropdown a {
+    color: black;
+}
