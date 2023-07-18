@@ -23,12 +23,30 @@ body {
 
 .size-massive {
     font-weight: 200;
-    font-size: 4.5rem;
+    font-size: 3rem;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.highlight-text {
+    color: #027e94;
+}
+
+.block:not(:last-child) {
+    margin-bottom: 2rem;
 }
 
 .is-transparent {
     color: rgba(255, 255, 255, 0);
     background-color: rgba(255, 255, 255, 0)
+}
+
+.white-text {
+    color: white;
 }
 
 .navbar-top {
@@ -46,10 +64,122 @@ body {
     font-size: 1rem;
 }
 
-.navbar-menu a:hover {
-    color: #027e94 ;
+.video-main {
+    border-radius: 60px 15px;
 }
 
-.navbar-dropdown a {
-    color: black;
+.navbar-menu a:hover {
+    color: #027e94;
+}
+
+.waitlist-button {
+    background-color: #027e94;
+    border: 0;
+    border-radius: 10px;
+    font-weight: 300;
+}
+
+.waitlist-button p {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.waitlist-button:hover {
+    color: rgb(255, 255, 255);
+    background-color: #066c7e;
+}
+
+.waitlist-nav-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #027e94;
+    padding: 10%;
+}
+
+.waitlist-nav-button p {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.waitlist-nav-button:hover {
+    color: white;
+    border-color: #066c7e;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: #0994ac;
+}
+
+.contact-button p {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+}
+
+.contact-button:hover {
+    color: white;
+    border-color: #066c7e;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    z-index: 1;
+    background-color: #262625;
+    margin: 0;
+    color: white;
+}
+
+footer p {
+    color: white;
+}
+
+.foot-margin{
+    padding: 0 6%;
+}
+
+.bottom-margin {
+    margin-bottom: 0;
+}
+
+.foot-soc {
+    margin: 0 10px;
+    display: inline;
+}
+
+.heavy-txt {
+    font-weight: 300;
+}
+
+.set-footer {
+    color: white;
+    background-color: #262625;
+    padding: 70px 30px;
+}
+
+
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background-color: rgb(249, 248, 243, 0.97);
+        padding: 20px 0 0 0;
+    }
+
+    .nav-button-contain {
+        width: 100%;
+    }
+
+    .waitlist-nav-button {
+        padding: 0;
+    }
+
+    .margin-block {
+        border-style: none;
+        padding: 20px 0;
+        margin: 0;
+    }
 }

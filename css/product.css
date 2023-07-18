@@ -1,0 +1,290 @@
+.cta-section {
+    margin-top: 100px;
+    text-align: center;
+    padding: 70px 6%;
+    min-height: 35vmax;
+}
+
+.desc-section{
+    background-color: #f9f8f3;
+    text-align: center;
+    padding: 70px 6%;
+}
+
+.desc {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color:rgb(10, 10, 10)
+}
+
+.benef-section {
+    padding: 70px 6%;
+}
+
+.info-blocks p {
+    font-weight: 300;
+}
+
+.benef-blocks {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+}
+
+.benef-blocks p {
+    font-weight: 200;
+}
+
+.info-section {
+    padding: 70px 6%;
+    background-color: #f9f8f3;
+}
+
+.cta-bottom {
+    background-color: rgba(238, 238, 238, 0.6);
+    padding: 2.5%;
+    border-radius: 40px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .15);
+    margin: 2.5%
+}
+
+.work-bottom{
+    background-color: rgba(36, 36, 36, 0.1);
+    padding: 2.5%;
+    border-radius: 40px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .25);
+    margin: 2.5%;
+    color: white;
+}
+
+.bottom-section {
+    background-color: #efebdd;
+    background-image: url("/images/Background\ stripe.svg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    min-height: 40vmax;
+}
+
+.botton-columns{
+    width: 90%;
+}
+
+.info-blocks {
+    margin-bottom: 30px;
+}
+
+.waitlist-form {
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+
+.waitlist-form h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: white;
+}
+
+.waitlist-form h2 {
+    font-weight: 300;
+    color: rgb(220, 220, 220)
+}
+
+.waitlist-form label {
+    font-weight: 200;
+    color: white;
+}
+
+.waitlist-form input {
+    background-color: black;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+.waitlist-form input::placeholder {
+    color: rgb(140, 140, 140);
+}
+
+.waitlist-form button {
+    width: 50%;
+}
+
+.info-column {
+    margin: 1rem;
+    text-align: center;
+}
+
+.info-column h1{
+    font-size: 100;
+}
+
+.info-column p {
+    font-weight: 300;
+    padding: 10px;
+    color: rgb(107, 107, 107);
+}
+
+.step-column {
+    margin: 1rem;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: rgba(70, 70, 70, 0.582);
+    padding: 1.5% 0%;
+}
+
+.step-column:hover {
+    border-style: solid;
+    border-width: 2px 0px;
+    border-color: #027e94;
+}
+
+.text ul {
+    list-style: none;
+    /* Remove default bullets */
+}
+
+.text li {
+    font-weight: 200;
+    margin: 25px 0;
+}
+
+.text li::before {
+    content: "\2022";
+    color: #027e94;
+    font-weight: 800;
+    display: inline-block;
+    width: 1rem;
+}
+
+
+.tabs a {
+    cursor: pointer;
+    padding: 10px 16px;
+    font-weight: 300;
+}
+
+.tabs a.active {
+    background: #027e94;
+}
+
+.tabs a.active span {
+    color: rgb(0, 0, 0);
+}
+
+.highlight-text {
+    color: #027e94;
+}
+
+.margin-block {
+    border-style: solid;
+    border-width: 0 0 0 0px;
+    border-color: rgba(70, 70, 70, 0.274);
+    padding: 0 0 0 30px;
+    margin: 0 0 0 40px;
+}
+
+.margin-block:hover {
+    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, #0994ac95%);
+    border-image-slice: 1;
+}
+
+.margin-block p {
+    width: 98%;
+    padding: 0 2% 0 0;
+}
+
+
+
+.block:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+
+.info-section p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.step-column p {
+    font-weight: 200;
+}
+
+.working-section {
+    padding: 70px 6%;
+    text-align: center;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s;
+    /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .main-landing {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 60px;
+    }
+
+    .cta-section {
+        margin-top: 20px;
+    }
+
+    .video-div-main {
+        display: none;
+    }
+
+    .info-section {
+        padding: 70px 6%;
+    }
+
+    .margin-block {
+        border-style: solid;
+        border-width: 0 0 0 0;
+        padding: 0 0 0 0;
+        margin: 0 0 0 0;
+    }
+
+    .esp-vertical-center {
+        display: inline;
+    }
+
+    .step-column {
+        padding: 5% 2%;
+    }
+
+    .mob-expand {
+        width: 100%;
+        margin: 3% 0;
+    }
+
+    .cta-bottom {
+        padding: 6%;
+        text-align: center;
+        margin: 8% 0;
+    }
+
+    .work-bottom {
+        padding: 6%;
+        text-align: center;
+        margin: 8% 1%;
+    }
+}

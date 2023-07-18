@@ -3,70 +3,10 @@
     min-height: 41vmax;
 }
 
-.waitlist-button {
-    background-color: #027e94;
-    border: 0;
-    border-radius: 10px;
-    font-weight: 300;
-}
-
-.waitlist-nav-button {
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #027e94;
-    padding: 10%;
-}
-
-.waitlist-button p {
-    color: rgb(255, 255, 255);
-    font-weight: 300;
-}
-
-.waitlist-nav-button p {
-    font-weight: 300;
-    font-size: 1rem;
-}
-
-.contact-button {
-    background-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 10px;
-    border-color: #0994ac;
-}
-
-.contact-button p {
-    color: rgb(0, 0, 0);
-    font-weight: 300;
-}
-
-.waitlist-button:hover {
-    color: rgb(255, 255, 255);
-    background-color: #066c7e;
-}
-
-.contact-button:hover {
-    color: white;
-    border-color: #066c7e;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.waitlist-nav-button:hover {
-    color: white;
-    border-color: #066c7e;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
 .main-landing {
     text-align: left;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-
-.video-main {
-    border-radius: 60px 15px;
 }
 
 .is-main {
@@ -79,55 +19,68 @@
 }
 
 .cta-section {
+    text-align: center;
+    padding: 70px 6%;
+}
+
+.desc-section{
     background-color: #f9f8f3;
     text-align: center;
     padding: 70px 6%;
 }
 
+.info-column {
+    margin: 1rem;
+    text-align: center;
+}
+
+.info-column h1{
+    font-size: 100;
+}
+
+.info-column p {
+    font-weight: 300;
+    padding: 10px;
+    color: rgb(107, 107, 107);
+}
+
 .desc {
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 300;
-}
-
-.benef-section {
-    padding: 70px 6%;
-}
-
-.info-blocks p {
-    font-weight: 300;
-}
-
-.benef-blocks {
-    color: rgb(255, 255, 255);
-    font-weight: 300;
-}
-
-.benef-blocks p {
-    font-weight: 200;
-}
-
-.info-section {
-    padding: 70px 6%;
+    color:rgb(10, 10, 10)
 }
 
 .cta-bottom {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(238, 238, 238, 0.6);
     padding: 2.5%;
     border-radius: 40px;
-    backdrop-filter: blur(3.5px);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .15);
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .35);
+    margin: 2.5%
+}
+
+.work-bottom{
+    background-color: rgba(36, 36, 36, 0.3);
+    padding: 2.5%;
+    border-radius: 40px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    margin: 2.5%;
+    color: white;
 }
 
 .bottom-section {
-    background-color: #e8e6df;
+    background-color: #efebdd;
     background-image: url("/images/Background\ stripe.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    padding: 70px 6%;
     min-height: 40vmax;
-    text-align: center;
+}
+
+.botton-columns{
+    width: 90%;
 }
 
 .info-blocks {
@@ -172,116 +125,6 @@
     width: 50%;
 }
 
-.info-column {
-    margin: 1rem;
-    text-align: center;
-}
-
-.info-column p {
-    font-weight: 300;
-    padding: 10px;
-    color: rgb(107, 107, 107);
-}
-
-.step-column {
-    margin: 1rem;
-    text-align: center;
-    border-style: solid;
-    border-width: 2px 0px;
-    border-color: rgba(70, 70, 70, 0.582);
-    padding: 1.5% 0%;
-}
-
-.step-column:hover {
-    border-style: solid;
-    border-width: 2px 0px;
-    border-color: #027e94;
-}
-
-.text ul {
-    list-style: none;
-    /* Remove default bullets */
-}
-
-.text li {
-    font-weight: 200;
-    margin: 25px 0;
-}
-
-.text li::before {
-    content: "\2022";
-    color: #027e94;
-    font-weight: 800;
-    display: inline-block;
-    width: 1rem;
-}
-
-
-.tabs a {
-    cursor: pointer;
-    padding: 10px 16px;
-    font-weight: 300;
-}
-
-.tabs a.active {
-    background: #027e94;
-}
-
-.tabs a.active span {
-    color: rgb(0, 0, 0);
-}
-
-.highlight-text {
-    color: #027e94;
-}
-
-.margin-block {
-    border-style: solid;
-    border-width: 0 0 0 0px;
-    border-color: rgba(70, 70, 70, 0.274);
-    padding: 0 0 0 30px;
-    margin: 0 0 0 40px;
-}
-
-.margin-block:hover {
-    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, #0994ac95%);
-    border-image-slice: 1;
-}
-
-.margin-block p {
-    width: 98%;
-    padding: 0 2% 0 0;
-}
-
-.vertical-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.block:not(:last-child) {
-    margin-bottom: 2rem;
-}
-
-
-.info-section p {
-    font-size: 15px;
-    font-weight: 200;
-}
-
-.step-column p {
-    font-weight: 200;
-}
-
-.working-section {
-    padding: 70px 6%;
-    text-align: center;
-}
-
-.tabcontent {
-    animation: fadeEffect 1s;
-    /* Fading effect takes 1 second */
-}
 
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
@@ -294,58 +137,12 @@
     }
 }
 
-footer {
-    z-index: 1;
-    background-color: #262625;
-    margin: 0;
-    color: white;
-}
-
-footer p{
-    color: white;
-}
-
-.bottom-margin{
-    margin-bottom: 0;
-}
-
-.foot-soc {
-    margin: 0 10px;
-    display: inline;
-}
-
-.heavy-txt {
-    font-weight: 300;
-}
-
-.set-footer {
-    color: white;
-    background-color: #262625;
-    padding: 70px 30px;
-}
 
 @media screen and (max-width: 1023px) {
     .main-landing {
         text-align: center;
         width: 90%;
         margin-bottom: 60px;
-    }
-
-    .navbar-menu {
-        background-color: rgb(249, 248, 243, 0.97);
-        padding: 20px 0 0 0;
-    }
-
-    .nav-button-contain {
-        width: 100%;
-    }
-
-    .waitlist-nav-button {
-        padding: 0;
-    }
-
-    .size-massive {
-        font-size: 3.5rem;
     }
 
     .video-div-main {
@@ -360,12 +157,6 @@ footer p{
         display: inline;
     }
 
-    .margin-block {
-        border-style: none;
-        padding: 20px 0;
-        margin: 0;
-    }
-
     .step-column {
         padding: 5% 2%;
     }
@@ -376,6 +167,14 @@ footer p{
     }
 
     .cta-bottom {
-        padding: 5%;
+        padding: 6%;
+        text-align: center;
+        margin: 8% 0;
+    }
+
+    .work-bottom {
+        padding: 6%;
+        text-align: center;
+        margin: 8% 1%;
     }
 }
