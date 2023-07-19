@@ -24,4 +24,4 @@ function openInfo(evt, cityName) {
     }
 }
 
-openInfo(event, 'Dem')
+openInfo(event, 'Ret')

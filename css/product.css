@@ -2,7 +2,7 @@
     margin-top: 100px;
     text-align: center;
     padding: 70px 6%;
-    min-height: 35vmax;
+    min-height: 30vmax;
 }
 
 .desc-section{
@@ -15,6 +15,13 @@
     font-size: 1.4rem;
     font-weight: 300;
     color:rgb(10, 10, 10)
+}
+
+.full-step-col{
+    background-color: #F9F8F3;
+    border-radius: 30px;
+    margin: 1.5%;
+    box-shadow: -5px 5px 4.5px rgba(0, 0, 0, 0.06);
 }
 
 .benef-section {
@@ -155,7 +162,7 @@
 }
 
 .tabs a.active {
-    background: #027e94;
+    background: #F3F1EB;
 }
 
 .tabs a.active span {
@@ -175,13 +182,12 @@
 }
 
 .margin-block:hover {
-    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, #0994ac95%);
+    border-image: -webkit-linear-gradient(90deg, rgba(4, 138, 196, 1) 5%, #0994ac95);
     border-image-slice: 1;
 }
 
 .margin-block p {
     width: 98%;
-    padding: 0 2% 0 0;
 }
 
 
