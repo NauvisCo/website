@@ -18,12 +18,16 @@ body {
 }
 
 .def-margin {
-    margin: 30px 0;
+    margin: 20px 0;
+}
+
+.def-padding {
+    padding: 80px 6%;
 }
 
 .size-massive {
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 3.3rem;
 }
 
 .vertical-center {
@@ -103,6 +107,10 @@ body {
     font-size: 1rem;
 }
 
+.l-align-text {
+    text-align: left;
+}
+
 .waitlist-nav-button:hover {
     color: white;
     border-color: #066c7e;
@@ -117,9 +125,25 @@ body {
     border-color: #0994ac;
 }
 
+.padded-col {
+    padding: 2.5%
+}
+
+hr.solid {
+    border-top: 1.2px solid rgb(80, 80, 80, 0.2);
+}
+
 .contact-button p {
     color: rgb(0, 0, 0);
     font-weight: 300;
+}
+
+.only-desk {
+    display: flex;
+}
+
+.only-mob {
+    display: none;
 }
 
 .contact-button:hover {
@@ -139,7 +163,7 @@ footer p {
     color: white;
 }
 
-.foot-margin{
+.foot-margin {
     padding: 0 6%;
 }
 
@@ -162,6 +186,25 @@ footer p {
     padding: 70px 30px;
 }
 
+.cta-bottom {
+    background-color: rgba(238, 238, 238, 0.7);
+    padding: 2.5%;
+    border-radius: 40px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .35);
+    margin: 2.5%
+}
+
+.work-bottom {
+    background-color: rgba(36, 36, 36, 0.6);
+    padding: 2.5%;
+    border-radius: 40px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    margin: 2.5%;
+    color: white;
+}
+
 
 @media screen and (max-width: 1023px) {
     .navbar-menu {
@@ -181,5 +224,25 @@ footer p {
         border-style: none;
         padding: 20px 0;
         margin: 0;
+    }
+
+    .only-desk {
+        display: none;
+    }
+
+    .only-mob {
+        display: flex;
+    }
+
+    .cta-bottom {
+        padding: 6%;
+        text-align: center;
+        margin: 8% 0;
+    }
+
+    .work-bottom {
+        padding: 6%;
+        text-align: center;
+        margin: 8% 1%;
     }
 }

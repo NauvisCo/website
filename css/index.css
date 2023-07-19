@@ -1,12 +1,12 @@
 .landing-section {
-    padding: 5% 0;
-    min-height: 41vmax;
+    padding: 0;
+    min-height: 35vmax;
 }
 
 .main-landing {
     text-align: left;
-    margin-top: 70px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .is-main {
@@ -20,13 +20,12 @@
 
 .cta-section {
     text-align: center;
-    padding: 70px 6%;
 }
 
-.desc-section{
+.desc-section {
     background-color: #f9f8f3;
     text-align: center;
-    padding: 70px 6%;
+    min-height: 40vmin;
 }
 
 .info-column {
@@ -34,7 +33,7 @@
     text-align: center;
 }
 
-.info-column h1{
+.info-column h1 {
     font-size: 100;
 }
 
@@ -44,29 +43,33 @@
     color: rgb(107, 107, 107);
 }
 
+.benef-column {
+    text-align: left;
+    background-color: #F9F8F3;
+    border-radius: 30px;
+    margin: 1.5%;
+    box-shadow: -5px 5px 4.5px rgba(0, 0, 0, 0.06);
+}
+
+.padded-col {
+    padding: 2.5%
+}
+
+.benef-column h1 {
+    padding: 10px 4%;
+    font-weight: 200;
+}
+
+.benef-column p {
+    font-weight: 300;
+    padding: 10px 4%;
+    color: rgb(107, 107, 107);
+}
+
 .desc {
     font-size: 1.4rem;
     font-weight: 300;
-    color:rgb(10, 10, 10)
-}
-
-.cta-bottom {
-    background-color: rgba(238, 238, 238, 0.6);
-    padding: 2.5%;
-    border-radius: 40px;
-    backdrop-filter: blur(4px);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .35);
-    margin: 2.5%
-}
-
-.work-bottom{
-    background-color: rgba(36, 36, 36, 0.3);
-    padding: 2.5%;
-    border-radius: 40px;
-    backdrop-filter: blur(4px);
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
-    margin: 2.5%;
-    color: white;
+    color: rgb(10, 10, 10)
 }
 
 .bottom-section {
@@ -79,7 +82,7 @@
     min-height: 40vmax;
 }
 
-.botton-columns{
+.botton-columns {
     width: 90%;
 }
 
@@ -141,7 +144,7 @@
 @media screen and (max-width: 1023px) {
     .main-landing {
         text-align: center;
-        width: 90%;
+        padding: 10px 6%;
         margin-bottom: 60px;
     }
 
@@ -151,6 +154,10 @@
 
     .info-section {
         padding: 70px 6%;
+    }
+
+    .benef-column {
+        text-align: center
     }
 
     .esp-vertical-center {
@@ -164,17 +171,5 @@
     .mob-expand {
         width: 100%;
         margin: 3% 0;
-    }
-
-    .cta-bottom {
-        padding: 6%;
-        text-align: center;
-        margin: 8% 0;
-    }
-
-    .work-bottom {
-        padding: 6%;
-        text-align: center;
-        margin: 8% 1%;
     }
 }
